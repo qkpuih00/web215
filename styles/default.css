@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Heebo&display=swap');
+/*color palette: 00000, 002e1f, 111c18, 636464, cbd4d1*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*TOC(table of contents page) begins*/
+.TOC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #91818A;
+}
+
+.TOC h3 {
+    margin-bottom: 2em;
+}
+
+.TOC ul li {
+    list-style: none;
+    line-height: 2em;
+}
+
+.TOC a:hover {
+    border-bottom: solid black;
+}
+/*TOC() ends*/
+
+/*nav begin*/
+nav {
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Heebo', sans-serif;
+    background-color: #000000;
+}
+
+.logo {
+    color: #ffffff;
+    font-family: 'Modoni Moda', serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+/*dropdown menu begins*/
+.nav-links a, .submenu-btn {
+    padding: 14px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 1px;
+}
+
+.submenu {
+    overflow: hidden;
+}
+
+.submenu-container {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    background-color: gray;
+}
+
+.submenu-btn:hover, .nav-links a:hover {
+    background-color: rgb(0, 128, 107);
+}
+
+.submenu:hover .submenu-container {
+    display: block;
+}
+
+.submenu-container a {
+    display: block;
+}
+
+.submenu-container a:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+
+/*set up burger menu toggle*/
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
+
+h1 {
+    padding: 50px;
+    background-color: #1C2321;
+    color: #F2F4F3;
+    font-family: 'Modoni Moda', serif;
+}
+
+/*contract page begins*/
+#contract-header {
+    font-family: 'Modoni Moda', serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contract-header h2 {
+    margin-top: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+#contract-paragraph {
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+}
+
+#contract-paragraph p {
+    padding-bottom: 20px;
+}
+
+/*introduction page begins*/
+#introduction-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Modoni Moda', serif;
+}
+
+#introduction-header h1 {
+    padding: 30px 0px;
+}
+
+#introduction-main {
+    font-family: 'Heebo', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction-main li {
+    line-height: 25px;
+}
+
+#introduction-inner-list {
+    margin-left: 50px;
+}
+
+/*brand page begins*/
+.brand-main {
+    margin: auto;
+    max-width: 60%;
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.brand-main p{
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.brand-main ul li{
+    list-style: none;
+}
+
+#brand-colors1 {
+    max-width: 30px;
+    padding: 50px;
+    margin-left: 10px;
+    background-color: #91818A;
+}
+#brand-colors2 {
+    max-width: 30px;
+    padding: 50px;
+    margin-left: 10px;
+    background-color: #1C2321;
+}
+#brand-colors3 {
+    max-width: 30px;
+    padding: 50px;
+    margin-left: 10px;
+    background-color: #F2F4F3;
+}
+#brand-colors4 {
+    max-width: 30px;
+    padding: 50px;
+    margin-left: 10px;
+    background-color: #750D37;
+}
+#brand-colors5 {
+    max-width: 30px;
+    padding: 50px;
+    margin-left: 10px;
+    background-color: #A31621;
+}
+/*brand page ends*/
+
+
+/*footer begins*/
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.button a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.button a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media(max-width: 970px) {
+    body {
+       overflow-x: hidden;
+    }
+
+    /*Mobile nav begin*/
+    .nav-links {
+        position: absolute;
+        height: 92vh;
+        right: 0px;
+        top: 8vh;
+        background-color: #000000;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;    
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+    .active {
+        background-color: rgb(0, 128, 107);
+        color: white;
+    }
+
+    .submenu-container {
+        position: relative;
+    }
+
+    .submenu a {
+        display: block;
+    }
+
+}
