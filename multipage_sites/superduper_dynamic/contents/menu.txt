@@ -1,4 +1,5 @@
 <a href="#" onclick="loadContent('alpha')">Aplha</a>|| <!--User click the link and loadContent function will set whatever argument for that link and run-->
 <a href="#" onclick="loadContent('bravo')">Bravo</a>||
 <a href="#" onclick="loadContent('charlie')">Charlie</a>||
-<a href="#" onclick="loadContent('delta')">Delta</a>
+<a href="#" onclick="loadContent('delta')">Delta</a>||
+<a href="../../../home.html">Go-->Home</a>
