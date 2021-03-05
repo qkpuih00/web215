@@ -3,6 +3,7 @@
     <ul>
         <li><a href="introduction.html">Introduction</a></li>
         <li><a href="brand.html">Brand</a></li>
+        <li><a href="multipage_sites/superduper_dynamic/index.html">Multiple-Pages-Site</a></li>
         <li><a href="home.html">Home</a></li>
         <li><a href="contract.html">Contract</a></li>
         <li><a href="template.html">Template</a></li>
