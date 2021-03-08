@@ -1,0 +1,34 @@
+ <header>
+        <h1>BLOOM</h1>
+    </header>
+    <main>
+        <div class="brand-main">
+            <h3>MISSION STATEMENT</h3>
+            <p>Bloom is an imaginary floral shop located in Charlotte NC. We offer
+                flower decoration for many occasion such as wedding, valentine day, 
+                birthday, gardening and more. Come to our shop and see the variety and colorful
+                options we offer. 
+            </p>
+            <h3>TAG LINE</h3>
+            <p>Making event beautiful</p>
+            <h3>FONTS</h3>
+            <ul>
+                <li>Modoni Moda, serif</li>
+                <li>Heebo, sans serif</li>
+                <li>Poppin</li>
+            </ul>
+            <h3>COLORS</h3>
+                <h5>#91818A</h5>
+                <div id="brand-colors1"></div>
+                <h5>#1C2321</h5>
+                <div id="brand-colors2"></div>
+                <h5>#F2F4F3</h5>
+                <div id="brand-colors3"></div>
+                <h5>#750D37</h5>
+                <div id="brand-colors4"></div>
+                <h5>#A31621</h5>
+                <div id="brand-colors5"></div>
+        </div>
+                <div id="toc-data"></div>
+        
+    </main>

@@ -1,0 +1,33 @@
+
+<nav>
+    <div class="logo">BLOOM</div>
+    <div class="nav-links">
+        <a href="#" onclick="loadContent('introduction')">Introduction</a>
+        <a href="#" onclick="loadContent('template')">Template</a>
+        <a href="#" onclick="loadContent('contract')">Contract</a>
+
+        <div class="submenu">
+            <button class="submenu-btn">Project</button>
+                <div class="submenu-container">
+                    <a href="#" onclick="loadContent('brand')">Brand</a>
+                    <a href="multipage_sites/superduper_dynamic/index.html">Multiple-Pages-site</a>
+                    <a href="#">link3</a>
+                </div>
+        </div>
+        
+        <div class="submenu">
+            <button class="submenu-btn">Dropdown 2</button>
+                <div class="submenu-container">
+                    <a href="#" onclick="loadContent('alpha')">Aplha</a> <!--User click the link and loadContent function will set whatever argument for that link and run-->
+                    <a href="#" onclick="loadContent('bravo')">Bravo</a>
+                    <a href="#" onclick="loadContent('charlie')">Charlie</a>
+                    <a href="#" onclick="loadContent('delta')">Delta</a>
+                </div>
+        </div>
+    </div>
+    <div class="burger" onclick="navSlide()">
+        <div class="line-one"></div>
+        <div class="line-two"></div>
+        <div class="line-three"></div>
+    </div>
+</nav>
