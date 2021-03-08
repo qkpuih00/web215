@@ -1,7 +1,7 @@
 //alert('hello?');
 window.onload = function() {
     loadMenu();
-    loadContent('alpha');//set alpha argument as default page to load
+    loadContent('introduction');//set alpha argument as default page to load
 };
 
 function loadMenu() {//funtion to load the menu 
