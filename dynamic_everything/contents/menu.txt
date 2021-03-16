@@ -2,15 +2,16 @@
 <nav>
     <div class="logo">BLOOM</div>
     <div class="nav-links">
+        <a href="#" onclick="loadContent('toc_content')">TOC</a>
         <a href="#" onclick="loadContent('introduction')">Introduction</a>
         <a href="#" onclick="loadContent('template')">Template</a>
         <a href="#" onclick="loadContent('contract')">Contract</a>
+
 
         <div class="submenu">
             <button class="submenu-btn">Project</button>
                 <div class="submenu-container">
                     <a href="#" onclick="loadContent('brand')">Brand</a>
-                    <a href="#">link3</a>
                 </div>
         </div>
         

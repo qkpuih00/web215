@@ -1,0 +1,12 @@
+<div class="TOC">
+    <h3>Table of Contents</h3>
+    <ul>
+        <li><a href="#" onclick="loadContent('introduction')">Introduction</a></li>
+        <li><a href="#" onclick="loadContent('brand')">Brand</a></li>
+        <li><a href="#" onclick="loadContent('home')">Home</a></li>
+        <li><a href="#" onclick="loadContent('contract')">Contract</a></li>
+        <li><a href="#" onclick="loadContent('template')">Template</a></li>
+    </ul>
+
+</div>
+

@@ -1,7 +1,7 @@
 //alert('hello?');
 window.onload = function() {
     loadMenu();
-    loadContent('introduction');//set alpha argument as default page to load
+    loadContent('toc_content');//set alpha argument as default page to load
 };
 
 function loadMenu() {//funtion to load the menu 
